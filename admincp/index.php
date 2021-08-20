@@ -12,6 +12,7 @@
     <h3 class="title_admin">Welcome to AdminCP</h3>
     <div class="wrapper">
         <?php
+            include("config/config.php");
             include("modules/header.php");
             include("modules/menu.php");
             include("modules/main.php");
