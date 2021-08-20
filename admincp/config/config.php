@@ -1,4 +1,5 @@
 <?php
+
 $mysqli = new mysqli("localhost","root","","web_mysqli");
 
 // Check connection
