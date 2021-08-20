@@ -21,7 +21,7 @@
         <td><?php echo $i ?></td>
         <td><?php echo $row['tendanhmuc'] ?></td>
         <td>
-            <a href="?action=quanlydanhmucsanpham&query=xoa">Xóa</a> | <a href="?action=quanlydanhmucsanpham&query=sua">Sửa</a>
+            <a href="modules/quanlydanhmucsp/xuly.php?iddanhmuc=<?php echo $row['id_danhmuc']?>">Xóa</a> | <a href="?action=quanlydanhmucsanpham&query=sua">Sửa</a>
         </td>
     </tr>
     <?php
